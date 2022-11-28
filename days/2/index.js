@@ -14,7 +14,7 @@ const input = prepareInput(readInput());
 const getSolution = (input) => {
   const chunked = splitForDecode(5, input);
   const fixed = chunked.map(e => fixFlip(5, e));
-  const decoded = chunked.map((e) => decode(5, e));
+  const decoded = fixed.map((e) => decode(5, e));
   const decodedBits = [].concat(...decoded);
   return fromBits(decodedBits);
 };
@@ -26,7 +26,8 @@ const getSolution = (input) => {
 // const chunkedBits = splitForEncode(5, bits);
 // const code = chunkedBits.map((e) => encode(5, e));
 // const flipped = addFlips(5, code);
-
+// writeFile('./input2.txt', flipped.map(a => a.join("")).join(""), () => 0 );
+ 
 /* Tests */
 
 test(
