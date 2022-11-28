@@ -5,7 +5,7 @@ Workspace for creating and solving advent calendar coding puzzles.
 ## Usage
 
 * npm install
-* npm start <day>
+* npm start \<day\>
 
 If day doesn't exist, a new day will be created.
 
@@ -17,7 +17,7 @@ C:\code\kalender\days\2\index.js
 2: passed
 3: passed
 Time: 0.305ms
-Solution: <solution>
+Solution: solution
 ```
 
 ## Puzzles
