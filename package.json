@@ -1,0 +1,22 @@
+{
+  "name": "julekalender_playgrounf",
+  "version": "1.0.0",
+  "description": "Playground for developing advent calendar puzzles",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "author": "Pwntheon",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "shelljs": "^0.8.3"
+  },
+  "dependencies": {
+    "@arrows/composition": "^1.2.1",
+    "get-caller-file": "^2.0.5",
+    "kleur": "^3.0.3",
+    "util": "^0.12.3"
+  }
+}
